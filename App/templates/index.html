@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title%}
+    Home
+{% endblock%}
+
+{% block content %}
+    <section class="container home-container">
+        <h2>Steps to follow: </h2>
+        <!--Add the Steps-->
+        <p>Step 1: Upload the MRI Scan.</p>
+        <p>Step 2: Wait for the Result.</p>
+        <h5>Upload the MRI Scan</h5>
+        <form action = "http://localhost:5000/uploader" method = "POST" enctype = "multipart/form-data">
+            <input type = "file" name = "file" />
+            <input type = "submit" class="s-btn"/>
+        </form>
+    </section>
+{% endblock %}

@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
+.heading {
+    font-family: "Monoton";
+}
+
+.main-heading {
+    font-size: 4em;
+    color: wheat;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid wheat;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-a {
+    text-decoration: none;
+    color: wheat;
+    padding: 0.5em;
+    font-family: "Staatliches";
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: lighter;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-nav li{
+    padding: 0 5%;
+}
+
+.nav a:hover{
+    background-color: rgba(255,255,255, 0.3);
+}
+
+.nav-heading {
+    font-size: 2em;
+    color: wheat;
+}
+
+.main-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-foot ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.main-footer{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-nav a:last-child {
+    color: wheat;
+    text-decoration: none;
+    padding-right: 2em;
+}
+
+.footer-nav a:hover {
+    color: black;
+}
+
+.footer-nav li {
+    display: inline;
+}
+
+.footer-nav ul{
+    margin: 0;
+}
+
+.nav-heading {
+    padding-left: 1em;
+}
+
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    font-family: "Tourney";
+}
+.container-info {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1.5em;
+}
+
+.home-container {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.5em;
+}
+
+.info-container {
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.dev-img {
+    width: 7em;
+    border-radius: 2em;
+    float: left;
+    margin: 0.5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.dev-container {
+    margin-top: 2em;
+    max-width: 600px;
+}
+
+.dev-text {
+    font-size: 1.5em;
+}
+
+.dev-h{
+    text-align: center;
+    
+}
+
+.mri-img {
+   max-width: 800px;
+   padding: 1em;
+}
+
+.tf-img {
+    max-width: 800px;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background: wheat; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}

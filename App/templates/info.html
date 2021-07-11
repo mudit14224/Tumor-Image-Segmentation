@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Info
+{% endblock %}
+
+{% block content %}
+    <section class="container info-container">
+        <!--Add all the Details-->
+        <h1>What to know about MRI scans</h1>
+        <p><i>A magnetic resonance imaging (MRI) scan is a common procedure around the world.</i></p>
+        <p>MRI uses a strong magnetic field and radio waves to create detailed images of the organs and tissues within the body.</p>
+        <p>Since its invention, doctors and researchers continue to refine MRI techniques to
+             assist in medical procedures and research. The development of MRI revolutionized medicine.</p>
+
+        <h1>What is an MRI scan?</h1>
+        <p>An MRI scan uses a large magnet, 
+            radio waves, and a computer to create a detailed, cross-sectional image of internal organs and structures.
+            <br><br>
+            The scanner itself typically resembles a large tube with a table in the middle, allowing the patient to slide in.
+            An MRI scan differs from CT scans and X-rays, as it does not use potentially harmful ionizing radiation.</p>
+        <img src="{{ url_for('static', filename='images/mri-scan.jpg')}}", class="mri-img">
+
+        <h1>Uses of MRI</h1>
+        <p>The development of the MRI scan represents a huge milestone for the medical world.
+            <br><br>
+
+            Doctors, scientists, and researchers are now able to examine the inside of 
+            the human body in high detail using a non-invasive tool.
+        </p>
+        <ul>
+            <li>anomalies of the brain and spinal cord</li>
+            <li>tumors, cysts, and other anomalies in various parts of the body</li>
+            <li>breast cancer screening for women who face a high risk of breast cancer</li>
+            <li>injuries or abnormalities of the joints, such as the back and knee</li>
+            <li>certain types of heart problems</li>
+            <li>diseases of the liver and other abdominal organs</li>
+            <li>the evaluation of pelvic pain in women, with causes including fibroids and endometriosis</li>
+            <li>suspected uterine anomalies in women undergoing evaluation for infertility</li>
+        </ul>
+
+        <a href="https://www.medicalnewstoday.com/articles/146309" target="_blank">Learn More about MRI scans</a>
+
+        <h1>MRI Segmentation of the Human Brain</h1>
+
+        <p>Image segmentation is one of the most important tasks in medical image analysis and is often 
+            the first and the most critical step in many clinical applications. 
+            In brain MRI analysis, image segmentation is commonly used for measuring and visualizing the 
+            brain’s anatomical structures, for analyzing brain changes, for delineating pathological regions, 
+            and for surgical planning and image-guided interventions.
+        </p>
+        <p>MRI image segmentation is a challenging task because of the similarity 
+            between different tissue structures in the brain image. 
+            Also the number of homogeneous regions present in an image 
+            varies with the image slice and orientation.
+        </p>
+
+        <a href="https://www.tensorflow.org/" target="_blank"><img src=" {{url_for('static', filename='images/tf.png')}}" class="tf-img"></a>
+        
+    </section>
+{% endblock %}

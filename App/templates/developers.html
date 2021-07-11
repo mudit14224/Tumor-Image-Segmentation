@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Developers 
+{% endblock %}
+
+{% block content %}
+    <section class="container dev-container">
+        <!--Add an image and Details-->
+        <h2 class="dev-h">About me</h2>
+        <img src="{{ url_for('static', filename='images/homer-simpson-medium.jpg') }}" class="dev-img">
+        <p class="dev-text">Hi, My name is Mudit Jindal. I am a Third year student at SRM Chennai. 
+            I am currently pursuing Btech. in Computer Science and Engineering. I am currently working Deep Learning and 
+            Web Development Projects. 
+        </p>
+    </section>
+{% endblock %}
