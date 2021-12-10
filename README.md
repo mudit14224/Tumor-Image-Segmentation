@@ -3,7 +3,6 @@
 <p align="center">
 </a>
 	<h1 align="left">Brain Tumor Image segmentation</h1>
-	<h4 align="left">State of the art for making brain tumor mask using MRI scan</h4>
 	
 </p>
 
