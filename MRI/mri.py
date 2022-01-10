@@ -18,7 +18,7 @@ def result(img_path, filename):
                                           color_mode='rgb', class_mode=None, seed=10)
 
     # Load the Model
-    model = tf.keras.models.load_model("brain-mri-segmentation.h5") 
+    model = tf.keras.models.load_model("brain-mri-segmentation.h5", compile=False) 
 
     # Get the output image
     pred = model.predict(test_img_gen)
